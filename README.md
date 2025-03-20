@@ -8,10 +8,10 @@ For more info about this task, see the [official SemEval site](https://propagand
 
 Our primary approach, consisting of an ensembled version of a continual learning training strategy was evaluated across five languages achieving competitive results:
 
-- Portuguese: Ranked 3rd out of 15 teams
-- English: Ranked 5th out of 30 teams
-- Russian: Ranked 5th out of 17 teams
-- Bulgarian: Ranked 5th out of 12 teams
+- Portuguese: Ranked 3rd out of 14 teams
+- English: Ranked 5th out of 27 teams
+- Russian: Ranked 5th out of 15 teams
+- Bulgarian: Ranked 5th out of 13 teams
 - Hindi: Ranked 5th out of 14 teams
   
 A notable aspect of our approach was stability, showing lower variance in predictions compared to similarly ranked systems for certain languages.
@@ -20,4 +20,4 @@ The official SemEval leaderboard can be found [here](https://propaganda.math.uni
 
 ## Submission Paper
 
-For more details on the approach we followed, please refer to the [submission paper](./submission_paper.pdf)
+For more details on the approach we followed, please refer to the [paper](./paper.pdf)
