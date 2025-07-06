@@ -1,8 +1,8 @@
 ## SemEval 2025 Task 10: Multilingual Narrative Extraction
 
-This repository contains the experimental notebooks documenting the complete development process of our entry at SemEval-2025 Task 10 Subtask 2.
+A repository documenting the complete development process of our entry at SemEval-2025 Task 10 Subtask 2.
 
-The notebooks trace the journey of cleaning and handling very long articles to establishing initial baselines models and then moving to multi-head multi-task hierarchical models. 
+Notebooks contain the process of cleaning and handling very long articles to establishing initial baselines models and then moving to multi-head multi-task hierarchical models. 
 
 Both baseline and hierarchical models revealed serious instability issues. We established different training strategies to overcome this problem. Specifically one of those training strategies is inspired by [Continual or Incremental Learning](https://en.wikipedia.org/wiki/Incremental_learning), which for us that means, our model learns patterns from a specific language before shifting to another language during training phase. We found very interesting insights out of this, with certain language orders strongly affecting model performance compared to others.
 
