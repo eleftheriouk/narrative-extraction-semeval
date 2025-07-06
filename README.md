@@ -1,23 +1,18 @@
-# Multilingual Narrative Extraction - SemEval 2025 Task 10
+## SemEval 2025 Task 10: Multilingual Narrative Extraction
 
-Code for my undergrad bachelor's thesis on the SemEval-2025 Task 10. It includes base hierarchical models aligned with the way the problem is structured, along with different training strategies and techniques that build on top of these models and tackle different challenges of the task from different angles.
+This repository contains the experimental notebooks documenting the complete development process of our entry at SemEval-2025 Task 10 Subtask 2.
+
+The notebooks trace the journey of cleaning and handling very long articles to establishing initial baselines models and then moving to multi-head multi-task hierarchical models. 
+
+Both baseline and hierarchical models revealed serious instability issues. We established different training strategies to overcome this problem. Specifically one of those training strategies is inspired by [Continual or Incremental Learning](https://en.wikipedia.org/wiki/Incremental_learning), which for us that means, our model learns patterns from a specific language before shifting to another language during training phase. We found very interesting insights out of this, with certain language orders strongly affecting model performance compared to others.
 
 For more info about this task, see the [official SemEval site](https://propaganda.math.unipd.it/semeval2025task10/).
 
-## Official SemEval Test Results (Updated Leaderboard)
+### Results
+The official SemEval leaderboard can be found [here](https://propaganda.math.unipd.it/semeval2025task10/leaderboardv2.html), with our entry under the name "KostasThesis2025".
 
-Our primary approach, consisting of an ensembled version of a continual learning training strategy was evaluated across five languages achieving competitive results:
+### SemEval 2025 Workshop Paper
+[Paper](./SemEval_Submission_Paper.pdf) accepted at ACL 2025 Workshop. 
 
-- Portuguese: Ranked 3rd out of 14 teams
-- English: Ranked 5th out of 27 teams
-- Russian: Ranked 5th out of 15 teams
-- Bulgarian: Ranked 5th out of 13 teams
-- Hindi: Ranked 5th out of 14 teams
-  
-A notable aspect of our approach was stability, showing lower variance in predictions compared to similarly ranked systems for certain languages.
-
-The official SemEval leaderboard can be found [here](https://propaganda.math.unipd.it/semeval2025task10/leaderboardv2.html), with my entry under the name "KostasThesis2025".
-
-## Submission Paper
-
-For more details on the approach we followed, please refer to the [paper](./paper.pdf)
+### Full Thesis
+For more details on the approach we followed, please refer to the [complete thesis paper](./BSc_Thesis_Paper.pdf)
