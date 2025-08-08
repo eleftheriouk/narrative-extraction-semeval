@@ -12,7 +12,7 @@ For more info about this task, see the [official SemEval site](https://propagand
 The official SemEval leaderboard can be found [here](https://propaganda.math.unipd.it/semeval2025task10/leaderboardv2.html), with our entry under the name "KostasThesis2025".
 
 ### SemEval 2025 Workshop Paper
-[Paper](./SemEval_Submission_Paper.pdf) accepted at ACL 2025 Workshop. 
+[Paper](https://aclanthology.org/2025.semeval-1.122/) accepted at ACL 2025 Workshop. 
 
 ### Full Thesis
 For more details on the approach we followed, please refer to the [complete thesis paper](./BSc_Thesis_Paper.pdf)
