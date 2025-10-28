@@ -14,5 +14,27 @@ The official SemEval leaderboard can be found [here](https://propaganda.math.uni
 ### SemEval 2025 Workshop Paper
 [Paper](https://aclanthology.org/2025.semeval-1.122/) accepted at ACL 2025 Workshop. 
 
-### Full Thesis
 For more details on the approach we followed, please refer to the [complete thesis paper](./BSc_Thesis_Paper.pdf)
+
+### Cite
+If you use this work, please cite it as:
+
+```bibtex
+@inproceedings{eleftheriou-etal-2025-kostasthesis2025,
+    title = "{K}ostas{T}hesis2025 at {S}em{E}val-2025 Task 10 Subtask 2: A Continual Learning Approach to Propaganda Analysis in Online News",
+    author = "Eleftheriou, Konstantinos  and
+      Louridas, Panos  and
+      Pavlopoulos, John",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th International Workshop on Semantic Evaluation (SemEval-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.122/",
+    pages = "899--908",
+    ISBN = "979-8-89176-273-2",
+    abstract = "In response to the growing challenge of propagandistic presence through online media in online news, the increasing need for automated systems that are able to identify and classify narrative structures in multiple languages is evident. We present our approach to the SemEval-2025 Task 10 Subtask 2, focusing on the challenge of hierarchical multi-label, multi-class classification in multilingual news articles. We present methods to handle long articles with respect to how they are naturally structured in the dataset, propose a hierarchical classification neural network model with respect to the taxonomy, and a continual learning training approach that leverages cross-lingual knowledge transfer."
